@@ -1,0 +1,62 @@
+.input-area {
+  margin-bottom: 20px;
+}
+
+.input-area input {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 10px;
+  padding: 8px;
+}
+
+.input-area button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #5cb85c;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+}
+
+.image-grid {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 10px;
+  display: flex;
+}
+
+.image-item {
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 200px;
+  padding: 10px;
+  position: relative;
+}
+
+.image-item img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.image-item p {
+  margin-top: 0;
+}
+
+.delete-button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #ff0000b3;
+  border: none;
+  border-radius: 4px;
+  padding: 3px 6px;
+  font-size: .8em;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+/*# sourceMappingURL=pinterest-clone.35e18cf0.css.map */

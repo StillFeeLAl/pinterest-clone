@@ -1,0 +1,60 @@
+.header-wrap {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.header {
+  background-color: #352e3f;
+  background-image: url("banner.ae405365.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 0;
+}
+
+.pin_logo {
+  width: 65px;
+  height: 65px;
+  display: flex;
+}
+
+.navigation-list {
+  display: flex;
+}
+
+.navigation-list_item a {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.profile_img {
+  width: 60px;
+  height: 60px;
+  display: flex;
+}
+
+.navigation-list_item {
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  display: flex;
+}
+
+body {
+  background: #fff;
+}
+
+body, div {
+  box-sizing: border-box;
+  margin: o;
+  padding: 0;
+}
+
+.container {
+  background-color: #0000;
+  max-width: 1170px;
+  margin: auto;
+  padding: 0 15px;
+}
+/*# sourceMappingURL=pinterest-clone.8c1c22dc.css.map */

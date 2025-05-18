@@ -1,0 +1,61 @@
+.input-area {
+    margin-bottom: 20px;
+}
+
+.input-area input {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.input-area button {
+    padding: 8px 16px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.image-grid {
+    display: flex;        /*  Используем Flexbox */
+    flex-wrap: wrap;      /*  Разрешаем перенос элементов */
+    justify-content: flex-start; /*  Выравниваем элементы по левому краю */
+    gap: 10px;            /*  Расстояние между элементами */
+}
+
+.image-item {
+    width: 200px;        /*  Фиксированная ширина для всех элементов */
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: white;
+    text-align: center;
+    position: relative;   /*  Для позиционирования кнопки удаления */
+    box-sizing: border-box; /*  Включаем padding и border в ширину элемента */
+}
+
+.image-item img {
+    max-width: 100%;     /*  Изображение занимает всю ширину элемента */
+    height: auto;
+    margin-bottom: 5px;
+    display: block;       /*  Убирает лишнее пространство под картинкой */
+}
+
+.image-item p {
+    margin-top: 0;
+}
+
+.delete-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: rgba(255, 0, 0, 0.7);
+    color: white;
+    border: none;
+    padding: 3px 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8em;
+}

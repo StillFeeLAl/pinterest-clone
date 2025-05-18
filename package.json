@@ -1,0 +1,24 @@
+{
+  "name": "pinterest-clone",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StillFeeLAl/pinterest-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StillFeeLAl/pinterest-clone/issues"
+  },
+  "homepage": "https://github.com/StillFeeLAl/pinterest-clone#readme",
+  "description": "",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.15.1",
+    "lodash": "^4.17.21",
+    "parcel": "^2.15.1"
+  }
+}
