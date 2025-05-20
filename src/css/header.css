@@ -37,3 +37,22 @@
     padding: 0 30px;
 }
 
+.pin_icon_add {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+
+    text-align: center;
+
+    background-color: aliceblue;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.pin_icon_add:hover {
+    background-color: rgb(174, 149, 201);
+}

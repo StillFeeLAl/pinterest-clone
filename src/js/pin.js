@@ -18,7 +18,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
             pictureInput.value = '';
         });
-    } else {
-        console.error('');
-    }
+    } 
 });

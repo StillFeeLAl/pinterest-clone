@@ -1,4 +1,4 @@
-.add_pin {
+.add_pin_modal {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -33,14 +33,14 @@
     width: 50%;
     height: 100%;
 
-    padding: 10px;
+    padding: 20px;
 }
 
 #left_side {
 
     border-radius: 25px;
 
-    background-color: rgb(174, 149, 201); ;
+    background-color: rgb(174, 149, 201);
 }
 
 /* Секции */
@@ -49,7 +49,6 @@
     width: 100%;
     height: 10%;
 
-    background-color: rgb(197, 175, 221);
 }
 
 .sec2 {
@@ -62,7 +61,6 @@
     justify-content: center;
     align-items: center;
 
-    background-color: rgb(197, 175, 221);
 }
 
 .sec3 {
@@ -72,8 +70,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    background-color: rgb(197, 175, 221);
+
 }
 
 /* Секции конец*/
@@ -92,6 +89,12 @@
     cursor: pointer;
 }
 
+#left_side .sec2 #upload_img_lbl input {
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+}
+
 #left_side .sec2 #upload_img_lbl .upload_img_cont {
     width: 100%;
     height: 100%;
@@ -102,6 +105,9 @@
     background-color: rgb(61, 41, 73);
 }
 
+
+/* не менять не трогать, ломается картинка, не знаю как исправить */
+/* ==================================================== */
 #left_side .sec2 #upload_img_lbl .upload_img_cont #dotts{
     width: 100%;
     height: 100%;
@@ -111,6 +117,97 @@
     justify-content: center;
     align-items: center;
 
+    text-align: center;
+
     border-radius: 25px;
     border: 2px dashed rgb(106, 85, 128);
+}
+
+.upload_text {
+    color: rgb(197, 175, 221);
+}
+/* ==================================================== */
+
+
+.pin_icon_cont {
+    border-radius: 50px;
+    background-color: aliceblue;
+}
+
+#left_side .sec3 .save_from_site {
+    width: 320px;
+    height: 45px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(106, 73, 126);
+
+    border-radius: 25px;
+    background-color: rgb(246, 234, 255);
+    cursor: pointer;
+}
+
+/* карточка для загрузки картинки */
+/* ==================================================== */
+.pin_upload_mdl {
+    width: 100%;
+    height: 100%;
+
+    opacity: 0;
+
+    text-align: center;
+    border-radius: 25px;
+   
+    overflow: hidden;
+}
+
+.pin_img {
+    color: transparent;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+/* ==================================================== */
+
+#right_side .sec1 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.save_pin {
+    display: flex;
+    align-items: center;
+
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(246, 237, 255);
+
+    padding: 15px 35px;
+
+    border-radius: 50px;
+    background-color: rgb(61, 41, 73);
+
+    cursor: pointer;
+}
+
+#right_side .sec2 .new_pin_input {
+    width: 100%;
+    height: 50px;
+
+    margin-bottom: 40px;
+
+    border: none;
+    border-bottom: 3px solid rgb(174, 149, 201);
+    outline: none;
+    background-color: transparent;
+
+    font-size: 20px;
+    font-weight: 200;
 }

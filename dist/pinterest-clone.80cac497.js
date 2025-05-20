@@ -13,7 +13,6 @@ document.addEventListener('DOMContentLoaded', ()=>{
         }
         pictureInput.value = '';
     });
-    else console.error('');
 });
 
 //# sourceMappingURL=pinterest-clone.80cac497.js.map

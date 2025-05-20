@@ -1,0 +1,147 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PinClone</title>
+    <link rel="stylesheet" href="./css/merge.css">
+    <link rel="stylesheet" href="./css/main.scss">
+    <link rel="stylesheet" href="./css/load_style.css">
+    <link rel="stylesheet" href="./css/pin_style.css">
+    <link rel="stylesheet" href="./css/header.css">
+    
+</head>
+<body>
+
+<script src="./js/pin.js"></script>
+
+ <section class="header">
+    <div class="container">
+        <div class="header-wrap">
+            <div class="pin_logo">
+                <img src="./images/pinclone.png" alt="#">
+            </div>
+            <nav class="navigation">
+              <ul class="navigation-list">
+                <div class="pin_icon_add add_pin">
+                  <img src="./images/addnew.png" alt="add_pin" class="pin_icon_img">
+              </div>
+                <li class="navigation-list_item">
+                  <a href="#">Saved</a>
+                </li>
+                <li class="navigation-list_item">
+                  <a class="profile" href="#">Profile</a>
+                </li>
+                <div class="profile_img">
+                    <img src="./images/userprofile.png" alt="#" class="user_img">
+                  </div>
+              </ul>
+            </nav>
+          </div>
+    </div>
+ </div>
+ </section>
+
+
+
+ <section class="cards">
+   <div class="container">
+
+    <input type="file" name="picture" id="picture">
+    
+       <div class="card">
+           <div class="pin_title"></div>
+
+         <div class="pin_mdl">
+               <div class="list_head">
+                  <div class="save_card">Save</div>
+               </div>
+             <div class="foot">
+                 <div class="dest">
+                     <div class="pin_icon_cont">
+                         <img src="./images/arrowside.png" alt="destination" class="pin_icon_img">
+                      </div>
+                       <span>PinClone</span>
+                 </div>
+
+                  <div class="pin_icon_cont">
+                     <img src="./images/arrowup.png" alt="send" class="pin_icon_img">
+                  </div>
+
+                  <div class="pin_icon_cont">
+                      <img src="./images/arrowdown.png" alt="edit" class="pin_icon_img">
+                  </div>
+              </div>
+         </div>
+              <div class="pin_img">
+                  <img  alt="pin_img" >
+               </div>
+       </div>
+   </div>
+
+</section>
+
+<section>
+  <div class="container">
+     <div class="add_pin_modal">
+         <div class="pin_in_cont">
+             <div class="side" id="left_side">
+                <!-- секция 1 -->
+                <div class="sec1">
+                    <div class="pin_icon_cont">
+                        <img src="./images/arrowdown.png" alt="send" class="pin_icon_img">
+                    </div>
+                </div>
+
+                <!-- секция 2 -->
+                <div class="sec2">
+                    <label for="upload_img" id="upload_img_lbl">
+                        <div class="upload_img_cont">
+                            <div id="dotts">
+                                <div class="pin_icon_cont">
+                                    <img src="./images/arrowup.png" alt="send" class="pin_icon_img">
+                                 </div>
+                                 <div class="upload_text">Upload</div>
+                                 <div class="upload_text">Supports PNGs, JPGs, GIFs, ect</div>
+                            </div>
+                        </div>
+                        <input type="file" name="upload_img" id="upload_img">
+                    </label>
+
+                    <div class="pin_upload_mdl">
+                        <div class="pin_img">
+                            <img  alt="pin_img" >
+                         </div>
+                    </div>
+                    
+                </div>
+                
+                <!-- секция 3 -->
+                <div class="sec3">
+                    <div class="save_from_site">Save From Site</div>
+                </div>
+
+             </div>
+
+             <div class="side" id="right_side">
+                <!-- секция правая 1 -->
+                <div class="sec1">
+                    <div class="save_pin">Save</div>
+                </div>
+               
+                <!-- секция правая 2 -->
+                <div class="sec2">
+                    <input placeholder="Add your Title" type="text" class="new_pin_input" id="pin_title">
+                    <input placeholder="Add Description" type="text" class="new_pin_input" id="pin_desc">
+                    <input placeholder="Add Link" type="text" class="new_pin_input" id="pin_link">
+                                       
+                </div>
+             </div>
+
+         </div>
+     </div>
+  </div>
+</section>
+
+<script src="./js/merge.js"></script>
+</body>
+</html>
