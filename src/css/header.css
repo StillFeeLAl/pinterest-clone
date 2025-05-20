@@ -5,12 +5,7 @@
 }
 
 .header {
-    background-color: rgb(53, 46, 63);
-    
-    background-image: url('../images/banner.png') ;
-    background-size: cover ; 
-    background-repeat: no-repeat;
-    padding: 20px 0;
+    background-color: rgb(96, 72, 129);
 }
 
 .pin_logo{

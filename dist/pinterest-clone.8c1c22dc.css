@@ -5,11 +5,7 @@
 }
 
 .header {
-  background-color: #352e3f;
-  background-image: url("banner.ae405365.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 20px 0;
+  background-color: #604881;
 }
 
 .pin_logo {
@@ -42,7 +38,7 @@
 }
 
 body {
-  background: #111018;
+  background: #201829;
 }
 
 body, div {

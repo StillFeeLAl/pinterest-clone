@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/load_style.css">
+    <link rel="stylesheet" href="./css/main.scss">
+</head>
+<body>
+    <section>
+      <div class="container">
+         <div class="add_pin">
+             <div class="pin_in_cont">
+                 <div class="side" id="left_side">
+                    <!-- секция 1 -->
+                    <div class="sec1">
+                        <div class="pin_icon_cont">
+                            <img src="./images/arrowdown.png" alt="send" class="pin_icon_img">
+                        </div>
+                    </div>
+
+                    <!-- секция 2 -->
+                    <div class="sec2">
+                        <label for="upload_img" id="upload_img_lbl">
+                            <div class="upload_img_cont">
+                                <div id="dotts">
+                                    <div class="pin_icon_cont">
+                                        <img src="./images/arrowup.png" alt="send" class="pin_icon_img">
+                                     </div>
+                                     <div>Upload</div>
+                                     <div>Supports PNGs, JPGs, GIFs, ect</div>
+                                </div>
+                            </div>
+                            <input type="file" name="upload_img" id="upload_img">
+                        </label>
+
+                        <div class="pin_upload_mdl">
+                            <!-- <div class="pin_img">
+                                <img  alt="pin_img" >
+                             </div> -->
+                        </div>
+                        
+                    </div>
+                    
+                    <!-- секция 3 -->
+                    <div class="sec3">
+                        <div class="save_from_site">Save From Site</div>
+                    </div>
+
+                 </div>
+
+                 <div class="side" id="right_side">
+                    <!-- секция правая 1 -->
+                    <div class="sec1">
+                        <div class="save_pin">Save</div>
+                    </div>
+                   
+                    <!-- секция правая 2 -->
+                    <div class="sec2">
+                        <input placeholder="Add your Title" type="text" class="new_pin_input" id="pin_title">
+                        <input placeholder="Add Description" type="text" class="new_pin_input" id="pin_desc">
+                        <input placeholder="Add Link" type="text" class="new_pin_input" id="pin_link">
+                                           
+                    </div>
+                 </div>
+
+             </div>
+         </div>
+      </div>
+  </section>
+    <script src="./js/load_mdl.js"></script>
+</body>
+</html>

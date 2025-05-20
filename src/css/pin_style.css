@@ -1,10 +1,14 @@
+.cards {
+    padding: 20px;
+}
+
 .card {
  width: 236px;
  height: 427px;
 border-radius: 25px;
 position: relative;
 
- background-color: rgb(68, 197, 96);
+ background-color: rgb(45, 40, 58);
  overflow: hidden;
 }
 
@@ -24,7 +28,8 @@ position: relative;
 
 
     z-index: 9999;
-    background-color: rgb(56, 124, 184);
+    background-color: rgba(194, 176, 223, 0.377);
+    
     opacity: 0;
     transition-duration: 0.3s;
 }
@@ -55,8 +60,8 @@ position: relative;
     font-size: 17px;
     font-weight: 700;
 
-    color: burlywood;
-    background-color: blue;
+    color: rgb(233, 222, 241);
+    background-color: rgb(71, 54, 92);
 
     cursor: pointer;
 }
