@@ -1,0 +1,78 @@
+@media(max-width: 375px) {
+    .header-wrap .navigation-list_item{
+        display: none;
+    }
+
+    .profile_img {
+        display: none;
+    }
+
+    .add_pin_modal {
+        width: 80%;
+        height: 80%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 999999;
+    
+        background-color: rgba(37, 32, 43, 0.356);
+    }
+    
+    .pin_in_cont {
+        width: 370px;
+        height: 500px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 999999;
+    
+        border-radius: 25px;
+        overflow: hidden;
+        padding: 40px;
+    
+        display: flex;
+    
+    
+        background-color: rgb(197, 175, 221);
+    }
+
+    #left_side .sec3 .save_from_site {
+        width: 320px;
+        height: 45px;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    
+        font-size: 15px;
+        font-weight: 700;
+        color: rgb(106, 73, 126);
+    
+        border-radius: 25px;
+        background-color: rgb(246, 234, 255);
+        cursor: pointer;
+    }
+
+    .save_pin {
+        display: flex;
+        align-items: center;
+    
+        width: 100px;
+
+        font-size: 40px;
+        font-weight: 700;
+        color: rgb(246, 237, 255);
+        text-align: center;
+    
+        padding: 15px 35px;
+    
+        border-radius: 50px;
+        background-color: rgb(61, 41, 73);
+    
+        cursor: pointer;
+    }
+}
+

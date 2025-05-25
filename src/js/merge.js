@@ -1,3 +1,4 @@
+
 // добавить \ убрать
 
 let add_pin_modal = null; 
@@ -26,8 +27,18 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function reset_mdl() {
-    if (add_pin_modal) { // 3. Проверяем, существует ли элемент
+    if (add_pin_modal) {
         add_pin_modal.style.opacity = 0;
         add_pin_modal.style.pointerEvents = 'none';
+
+        document.querySelector('#pin_title').value = '';
+        document.querySelector('#pin_desc').value = '';
+        document.querySelector('#pin_link').value = '';
+
+        const imgElement = document.querySelector('.pin_img1 img'); 
+        if (imgElement) {
+            imgElement.src = '';
+        }
+        document.querySelector('#upload_img_lbl').style.display = 'block';
     }
 }

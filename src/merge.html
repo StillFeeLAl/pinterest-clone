@@ -8,11 +8,10 @@
     <link rel="stylesheet" href="./css/load_style.css">
     <link rel="stylesheet" href="./css/pin_style.css">
     <link rel="stylesheet" href="./css/header.css">
-    
+    <link rel="stylesheet" href="./css/media.css">
 </head>
 <body>
 
-<script src="./js/pin.js"></script>
 
  <section class="header">
     <div class="container">
@@ -44,14 +43,15 @@
 
 
  <section class="cards">
-   <div class="container">
+<div class="container">
 
-    <input type="file" name="picture" id="picture">
-    
-       <div class="card">
+    <!-- <input type="file" name="picture" id="picture"> -->
+   <div class = "card_wrap">  
+    <script src="./js/savepin.js"></script>
+       <!-- <div class="card">
            <div class="pin_title"></div>
 
-         <div class="pin_mdl" id="pin_mdl">
+         <div class="pin_mdl">
                <div class="list_head">
                   <div class="save_card">Save</div>
                </div>
@@ -75,9 +75,13 @@
               <div class="pin_img">
                   <img  alt="pin_img" >
                </div>
-       </div>
-   </div>
+       </div> -->
+       
 
+   </div>
+</div>
+
+   
 </section>
 
 <section>
@@ -108,8 +112,8 @@
                     </label>
 
                     <div class="pin_upload_mdl">
-                        <div class="pin_img">
-                            <img  alt="pin_img" >
+                        <div class="pin_img1">
+                            <img  alt="pin_img1" >
                          </div>
                     </div>
                     
@@ -143,5 +147,8 @@
 </section>
 
 <script src="./js/merge.js"></script>
+<script src="./js/load_mdl.js"></script>
+<script src="./js/fakestoreapi.js"></script>
+
 </body>
 </html>

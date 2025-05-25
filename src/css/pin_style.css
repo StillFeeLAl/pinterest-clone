@@ -2,14 +2,22 @@
     padding: 20px;
 }
 
+.card_wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .card {
  width: 236px;
  height: 427px;
 border-radius: 25px;
 position: relative;
 
+margin: 15px;
+
  background-color: rgb(45, 40, 58);
  overflow: hidden;
+ 
 }
 
 .pin_title {
@@ -121,5 +129,18 @@ position: relative;
 }
 
 .pin_img img {
+    max-height: 100%;
+}
+
+.pin_img1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: transparent;
+}
+
+.pin_img1 img {
     max-height: 100%;
 }

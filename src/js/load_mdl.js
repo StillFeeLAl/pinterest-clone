@@ -1,10 +1,9 @@
 
-
 let pin_image_blob = null;
 
 document.addEventListener('DOMContentLoaded', () => {
     const pictureInput = document.querySelector('#upload_img');
-    const imgElement = document.querySelector('.pin_img img'); 
+    const imgElement = document.querySelector('.pin_img1 img'); 
     const pinUploadMdl = document.querySelector('.pin_upload_mdl');
 
 
